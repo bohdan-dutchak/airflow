@@ -10,7 +10,7 @@ from airflow.operators.http_operator import SimpleHttpOperator
 from airflow.decorators.task_group import TaskGroup
 from airflow.utils.dates import days_ago
 
-# List of cities
+
 cities = ["Lviv", "Kharkiv", "Kyiv", "Odesa", "Zhmerynka"]
 
 
